@@ -1,0 +1,40 @@
+html {
+  height: 100%; }
+
+body {
+  margin: 0;
+  height: 100%;
+  font: 16px / 1 sans-serif; }
+
+.nav-bar {
+  display: flex;
+  flex-direction: row; }
+
+.left-nav,
+.right-nav {
+  display: flex;
+  flex-direction: row; }
+
+.about-link,
+.store-link,
+.gmail-link,
+.images-link,
+.others-tiles,
+.sign-in {
+  margin: 1em; }
+
+.center-row-space {
+  flex-grow: 1; }
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; }
+
+.search-buttons {
+  display: flex;
+  flex-direction: row; }
+
+/*# sourceMappingURL=screen.css.map */
